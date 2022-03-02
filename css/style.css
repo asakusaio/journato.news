@@ -1,5 +1,4 @@
 body {
-    font-family: 'Myriad Pro', sans-serif;
     --bs-body-color: none;
     --bs-body-bg: none;
 }
@@ -16,6 +15,7 @@ nav {
 
 #main-content {
     height: 90vh;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #journato-logo {
@@ -24,18 +24,18 @@ nav {
 }
 
 #main-title {
-    color: #2A374E;
+    color: #ffffff;
     font-size: 42px !important;
 }
 
 #description {
-    color: #2A374E;
+    color: #ffffff;
     font-size: 18px;
 }
 
 #cta-button {
-    background-color: #2A374E;
-    border-color: #2A374E;
+    background-color: #5a95ed;
+    border-color: #5a95ed;
     color:#ffffff;
     font-size: 20px;
     margin-bottom: 20px;
@@ -68,7 +68,7 @@ nav {
 }
 
 .sm-icons a:hover i {
-    color: #2A374E;
+    color: #ffffff;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 
 }
